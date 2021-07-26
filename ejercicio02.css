@@ -1,0 +1,21 @@
+h1{
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 55px;
+}
+h3{
+    font-style: oblique;
+    color: #666367 ;
+}
+    
+#cuadro{
+background-color:  #dea4ff ;
+width: 200px;
+height: 130px;
+border: ridge; color: black;
+}
+.destacado{
+    color: #ff0000;
+    font-style: initial;
+}
