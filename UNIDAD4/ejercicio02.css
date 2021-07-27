@@ -1,0 +1,12 @@
+
+h2{
+    color: green; /*color de la fuente*/
+    font-family: cursive;
+    font-size: 25px;
+}
+p{
+    color: violet;
+}
+h1{
+    background-color: wheat;
+}

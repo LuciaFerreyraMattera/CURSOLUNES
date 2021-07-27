@@ -1,0 +1,19 @@
+h1{
+    color: blueviolet;
+    font-size: 60px;
+    font-family: sans-serif;
+    text-align: center;
+}
+h3{
+    color:  #666367 ;
+    font-style: oblique;
+}
+
+#cuadro{
+    background-color:  #df96f7 ;
+    border: black; ridge ; 
+    width: 200px;
+    height: 130px;
+    border-size: 10px;
+
+}
