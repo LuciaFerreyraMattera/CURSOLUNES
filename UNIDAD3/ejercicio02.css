@@ -3,17 +3,35 @@ h1{
     font-size: 60px;
     font-family: sans-serif;
     text-align: center;
+    font-family: 'Architects Daughter', cursive;
 }
 h3{
     color:  #666367 ;
     font-style: oblique;
+    font-family: 'Staatliches'; 
 }
 
 #cuadro{
     background-color:  #df96f7 ;
-    border: black; ridge ; 
+    border: black;
+    border-style: ridge;
     width: 200px;
     height: 130px;
-    border-size: 10px;
+    border-radius: 25px;
+    border: 2px solid rgb(80, 6, 109);
+    background: #ff0000;
+    background: radial-gradient(circle farthest-corner at center center, #ff0000 0%, #fdff00 40%, #00ffe7 40%, #ffff00 40%, #a000ff 80%);
+    box-shadow: 3px -10px 10px 0px rgba(0,0,0,0.75);
 
 }
+.foto{
+     height: 500px;
+     filter: grayscale(67%) sepia(19%) brightness(111%) saturate(132%);
+-webkit-filter: grayscale(67%) sepia(19%) brightness(111%) saturate(132%);
+-moz-filter: grayscale(67%) sepia(19%) brightness(111%) saturate(132%);
+border: 10px ridge #9f9897;
+}
+img{
+    display:block;
+    margin:auto;
+    }
