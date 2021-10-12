@@ -1,0 +1,21 @@
+.verde{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(155, 255, 213);
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 20px 0 20px 0;
+}
+.violeta{
+    width: 300px;
+    height: 250px;
+    background-color: violet;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    border: 2px solid rgb(80, 6, 109);
+    background: #ff0000;
+    background: radial-gradient(circle farthest-corner at center center, #ff0000 0%, #fdff00 40%, #00ffe7 40%, #ffff00 40%, #a000ff 80%);
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #ff0000 0%, #fdff00 40%, #00ffe7 40%, #ffff00 40%, #a000ff 80%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, #ff0000 0%, #fdff00 40%, #00ffe7 40%, #ffff00 40%, #a000ff 80%);
+}

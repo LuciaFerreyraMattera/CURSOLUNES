@@ -1,0 +1,5 @@
+.texto{
+    column-count: 3; 
+    column-gap: 30px;
+    column-rule: 3px solid pink;
+}
