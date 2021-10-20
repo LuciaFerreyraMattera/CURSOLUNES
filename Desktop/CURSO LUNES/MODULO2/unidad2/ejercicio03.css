@@ -1,0 +1,37 @@
+body{
+    border: 5px solid #000000;
+    
+
+}
+.cuadrado{
+    background-color: white;
+	height: 200px;
+	flex-wrap: nowrap;
+    display: flex;
+    
+    justify-content: space-between
+}
+
+.item1{
+    background-color: red;
+    width: 20%;
+    font-size: 30px;
+    text-align: center;
+    color:white;
+
+	
+}
+.item2{
+	background-color: blue;
+    width: 20%;
+	font-size: 30px;
+    text-align: center;
+    color:white;
+}
+.item3{
+    background-color:green;
+	width: 20%;
+	font-size: 30px;
+    text-align: center;
+    color:white;
+}
