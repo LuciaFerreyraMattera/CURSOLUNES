@@ -1,0 +1,29 @@
+.cuadrado{
+    border: 2px solid black;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    }
+    .caja{
+        width: 150px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+    .item1{
+        background-color: red;
+        color: white
+    }
+    .item2{
+        background-color: green;
+        color: white;
+    }
+    .item3{
+        background-color: blue;
+        color: white;
+    }
