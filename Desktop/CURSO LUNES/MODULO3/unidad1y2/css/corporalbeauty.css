@@ -1,0 +1,210 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 20px; /*alto de linea o separacion entre linea y linea */
+    
+}
+header{
+    background-color: rgb(248, 209, 215);
+    padding: 1em 0;
+}
+header h1{
+    color: white;
+    font-size: 2.5em;
+    font-style: oblique;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+}
+nav{
+    background-color: rgb(206, 215, 255);
+    margin-bottom: 2em;
+}
+nav ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+nav ul li{
+    display: inline-block;
+    width: 16.3%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+    color: black; 
+    /*color:white;*/
+}
+nav ul li a:hover {
+    background-color: rgb(89, 89, 124);
+    color: white
+}
+footer{
+    background-color: rgb(235, 232, 232);
+    clear: both;
+    color: rgb(89, 89, 124);
+    padding: 2em 10px;
+    margin-top: 1em;
+    text-align: right;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+nav ul li a.activo{
+    background-color:rgb(89, 89, 124) ;
+}
+
+.facial{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: rgb(219, 118, 118);
+    font-weight: 50px;
+    margin: 0 0 1em;
+
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+/*inicio */
+.facial{
+    margin-bottom: 1.5em;
+}
+.Bienvenidos, .Testimonios{
+    box-sizing: border-box;
+}
+.Bienvenidos{
+    width: 75%;
+    padding-right: 2em; 
+
+}
+.Testimonios{
+    width: 25%;
+}
+.cuadrado{
+    padding: 1em;
+    background-color: rgb(235, 232, 232);
+   /* margin-bottom: 30px; */
+}
+.cuadrado .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+
+    display: block;
+}
+
+.cuadrado .autor{
+    font-size: 0.7em;
+    text-align: left;
+    margin: 1em 0;
+
+    display: block;
+}
+/*fin de inicio */
+
+/*inicio sobre nosotros*/
+.historia p{
+    font-size: 0.8em;
+}
+.PERSONAS{
+ overflow: hidden;
+}
+.Personas{
+    width: 18%;
+    border: 1px solid gray;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 2.50%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.Personas img{
+    border-radius: 70%;
+    box-shadow: 0 0 2px black;
+    margin: 0.8em 0 1em;
+    max-width: 60%;
+}
+.Personas h5, .Personas h6{
+    text-align: center;
+    font-weight: normal;
+    color: rgb(175, 112, 123);
+    margin: 0;
+}
+
+.Personas h5{
+    font-size: 1em;
+}
+
+.Personas h6{
+    font-size: 0.8em;
+    font-style: italic;
+}
+.Personas p{
+    font-size: 0.7em;
+    color: grey;
+}
+.Personas:first-child{
+    margin-left: 0;
+}
+
+/* fin sobre nosotros */
+
+/* inicio servicios*/
+
+.servicios{
+    border: 1px solid gray;
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+}
+.servicios .info{
+    width: 75%;
+}
+.servicios .info h4{
+    color: rgb(207, 147, 147);
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 1em;
+    border-bottom: 1px solid pink;
+    padding-bottom: 0.5em;
+}
+.servicios .info p{
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+.servicios img{
+    border-radius: 0.8em;
+}
+.servicios:nth-child(even) img{ /*par*/
+    float: right;
+    margin: 0 0 0 1em;
+}
+.servicios:nth-child(even) .info{
+    float: left;
+}
+.servicios:nth-child(odd) img{ /*impar*/
+    float: right;
+}
+.servicios:nth-child(odd) .info{
+    float: right;
+}
+/*fin servicios*/
+
