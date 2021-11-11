@@ -1,0 +1,38 @@
+<div class="columna left">
+    <h3>Contacto</h3>
+    <form action="/contacto" method="post" class="formulario">
+        <p>
+            <label for="nombre">Nombre (*)</label>
+            <input type="text" name="nombre">
+        </p>
+        <p>
+            <label for="email">Email (*)</label>
+            <input type="text" name="email">
+        </p>
+        <p>
+            <label for="telefono">Teléfono</label>
+            <input type="text" name="telefono">
+        </p>
+        <p>
+            <label for="mensaje">Mensaje (*)</label>
+            <textarea name="mensaje"></textarea>
+        </p>
+        <h5>Los datos marcados (*) son obligatorios</h5>
+        <p class="acciones"><input type="submit" value="enviar" /></p>
+
+    </form>
+    {{message}}
+
+
+</div>
+<div class="columna right">
+    <h3>Otras vías de comunicación</h3>
+    <p>También pueden comunicarse mediante</p>
+    <ul>
+        <li>Teléfono: 12345678</li>
+        <li>Email: contacto@hotmail.com</li>
+        <li>Facebook: asdfghj</li>
+        <li>Instagram: asdfghj</li>
+    </ul>
+
+</div>

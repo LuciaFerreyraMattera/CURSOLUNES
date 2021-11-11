@@ -1,0 +1,282 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 20px; 
+    color: rgb(104, 104, 104);
+    
+}
+header{
+    background-color: rgb(248, 209, 215);
+    padding: 1em 0;
+}
+h5{
+    font-size: 12px;
+    font-family: 'Montserrat';
+    
+    
+}
+header h1{
+    color: white;
+    font-size: 3em;
+    font-style: oblique;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+}
+nav{
+    background-color: rgb(206, 215, 255);
+    margin-bottom: 2em;
+}
+nav ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+nav ul li{
+    display: inline-block;
+    width: 20%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+   padding: 0.2em 0.4em;
+    color: black; 
+
+}
+nav ul li a:hover {
+    background-color: rgb(89, 89, 124);
+    color: white
+}
+footer{
+    background-color: rgb(235, 232, 232);
+    clear: both;
+    color: rgb(89, 89, 124);
+    padding: 2em 10px;
+    margin-top: 1em;
+    text-align: right;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+nav ul li a.activo{
+    background-color:rgb(89, 89, 124) ;
+}
+
+.facial{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: rgb(219, 118, 118);
+   
+    font-size: 60px;
+    margin: 15px 0 1em;
+    text-align: center;
+    font-style: serif;
+    font-family: 'Courgette', cursive;
+
+}
+h3{
+    color: rgb(219, 118, 118);
+    
+    font-size: 40px;
+    margin: 0em 0em 1em;
+    text-align: center;
+    line-height: 35px;
+    font-family: 'Courgette', cursive;
+    font-style: serif;
+}
+h2{
+    color: rgb(219, 118, 118);
+  
+    font-size: 50px;
+    margin: 1em 0 1em;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-style: serif;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+
+
+/*inicio */
+.facial{
+   
+   padding: 2.3em;
+}
+.Bienvenidos{
+    box-sizing: border-box;
+}
+.Bienvenidos{
+    width: 75%;
+    padding-right: 2em; 
+
+}
+
+/*fin de inicio */
+
+/*inicio sobre nosotros*/
+.historia p{
+    font-size: 0.9em;
+}
+.PERSONAS{
+ overflow: hidden;
+
+ display: flex;
+}
+.Personas{
+    border-radius: 0.50em;
+    margin-left: 2.50%;
+    text-align: center;
+    justify-items: center;
+}
+.Personas img{
+    border-radius: 85%;
+    margin: 0.8em 0 1em;
+    max-width: 75%;
+}
+.Personas h5{
+    text-align: center;
+    font-weight: normal;
+    color: rgb(175, 112, 123);
+    margin: 0;
+}
+
+.Personas h5{
+    font-size: 2em;
+}
+
+.Personas h6{
+    font-size: 1.3em;
+    font-family: 'Courgette', cursive;
+    margin-top: 15px;
+    color: rgb(104, 104, 104);
+    text-align: center;
+    font-weight: normal;
+   margin-bottom: 0%;
+}
+.Personas p{
+    font-size: 0.9em;
+    color: grey;
+}
+.Personas:first-child{
+    margin-left: 20em;
+    margin-right: 20em;
+}
+
+/* fin sobre nosotros */
+
+/* inicio servicios*/
+
+.servicios{
+    border: 1px solid gray;
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+    
+}
+.servicios .info{
+    width: 75%;
+}
+.servicios .info h4{
+    color: rgb(207, 147, 147);
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 1em;
+    margin-left: 0.5em;
+    border-bottom: 1px solid pink;
+    padding-bottom: 0.5em;
+}
+.servicios .info p{
+    font-size: 0.8em;
+    line-height: 1.2em;
+    margin-left: 0.5em;
+}
+.servicios img{
+    border-radius: 0.8em;
+}
+.servicios:nth-child(even) img{ 
+    float: right;
+    margin: 0 0 0 1em;
+}
+.servicios:nth-child(even) .info{
+    float: right;
+}
+.servicios:nth-child(odd) img{ 
+    float: left;
+}
+.servicios:nth-child(odd) .info{
+    float: left;
+}
+/*fin servicios*/
+/*inicio galeria 
+
+/*inicio contacto*/
+.columna{
+    width: 50%;
+    padding: 0.625em;
+    box-sizing: border-box;
+}
+.columna.left{ 
+    border-right: 1px solid rgb(252, 222, 227);
+}
+.columna.right{
+    font-size: 1em;
+    font-style: italic;
+}
+.columna.right ul li{
+    font-size: 0.8em;
+    
+}
+.formulario label{
+    display: inline-block; 
+    vertical-align: top; 
+    width: 22%;
+}
+.formulario input,
+.formulario textarea{
+    background-color: rgb(255, 241, 243);
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 0.8em;
+    padding: 0.4em 0.6em;
+    width: 70%;
+}
+.formulario.textarea{
+    resize: none;
+    height: 18em;
+}
+.formulario input[type="submit"]{
+    background-color:rgb(247, 186, 198);
+    box-shadow: 0 0 1px black;
+    color:black;
+    font-size: 1em;
+    padding: 0.4em 0.2em;
+    text-align: center;
+   width: 130px;
+    cursor: pointer;
+}
+.formulario input[type="submit"]:hover{
+    background-color: rgb(243, 141, 175);
+    color: white;
+}
+.acciones{
+    text-align: center;
+}
+
+/*fin de contacto*/
